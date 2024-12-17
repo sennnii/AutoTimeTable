@@ -1,0 +1,132 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F4F7FF;
+}
+
+nav div div ul{
+    margin-right: 20%;
+}
+
+nav > div > span{
+    font-weight: 700;
+}
+
+body > div > div{
+    width: 90vw;
+}
+
+div.tableWrapper{
+    width: 37em;
+    position: relative;
+}
+
+table {
+    text-align: center;
+    vertical-align: middle;
+    width: 36em; /* 부모 div의 너비에 맞게 설정 */
+    border-collapse: collapse;
+}
+
+
+table th, table td {
+    padding: 0;
+    width: 6em; /* 자동으로 균등하게 조정 */
+    height: 30px; /* 높이를 고정할 경우 */
+    text-align: center;
+    border-style: solid;
+    border-color: #3B4669;
+    border-width: 1px;
+}
+
+table > thead> tr> th{
+    background-color: #B9CAF6 !important;
+}
+
+table tr td:first-child{
+    background-color: #B9CAF6 !important;
+}
+
+table td {
+    font-size: 0.8em;
+}
+
+div.class1{
+    background-color: #f2e8e8;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class2{
+    background-color: #ffe9e9;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class3{
+    background-color: #eff9cc;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class4{
+    background-color: #dcf2e9;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class5{
+    background-color: #dee8f6;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class6{
+    background-color: #fff8cc;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class7{
+    background-color: #ffedda;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class8{
+    background-color: #dceef2;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class9{
+    background-color: #d6d6d6;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}
+
+div.class10{
+    background-color: #ededed;
+         text-align: center;
+    vertical-align: middle;
+    font-size: 0.6em;
+    padding:4px;
+}

@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 1800px;
+    background-color: #f4f7ff;
+}
+
+nav > div > span{
+    font-weight: 700;
+}
+
+.조건선택 .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 164px;
+    top: 0;
+    left: 0;
+}
+
+.조건선택 .navigation {
+    position: absolute;
+    width: 1440px;
+    height: 112px;
+    top: 0;
+    left: 0;
+}
+
+.조건선택 .title {
+    position: absolute;
+    width: 251px;
+    top: 35px;
+    left: 62px;
+    font-family: "Roboto", Helvetica;
+    font-weight: 700;
+    color: #001e57;
+    font-size: 36px;
+    text-align: center;
+    line-height: 43.2px;
+}
+.조건선택 .headerbutton1 {
+    height: 26px;
+    top: 42px;
+    left: 755px;
+    font-size: 20px;
+    line-height: 26.0px;
+    white-space: nowrap;
+    position: absolute;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.조건선택 .headerbutton2 {
+    position: absolute;
+    height: 26px;
+    top: 42px;
+    left: 855px;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 26.0px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.조건선택 .headerbutton3 {
+    height: 26px;
+    top: 42px;
+    left: 969px;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    line-height: 26.0px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.조건선택 .headerbutton4 {
+    height: 26px;
+    top: 42px;
+    left: 1064px;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    line-height: 26.0px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.조건선택 .headerbutton5 {
+    height: 26px;
+    top: 42px;
+    left: 1200px;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 20px;
+    line-height: 26.0px;
+    white-space: nowrap;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+.조건선택 .page-heading {
+    position: absolute;
+    width: 1378px;
+    height: 75px;
+    top: 89px;
+    left: 16px;
+} 
+.조건선택 .overlap-group {
+    position: relative;
+    width: 1203px;
+    height: 47px;
+    top: 28px;
+    left: 83px;
+}
+.조건선택 .Instructions {
+    width: 335px;
+    top: 0;
+    left: 0;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    letter-spacing: 0;
+}
+.조건선택 .divider {
+    position: relative;
+    width: 1194px;
+    height: 2px;
+    top:25px;
+    left: 0px;
+}
+
+.div-wrapper {
+    position: relative;
+    margin-top: 60px;
+}
+
+.grade{
+    position: absolute;
+    top:224px;
+    left:497px;
+    font-family: "IBM Plex Sans KR";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.semester{
+    position: absolute;
+    top:224px;
+    left: 736px;
+    font-family: "IBM Plex Sans KR";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+table {
+    position: absolute;
+    top: 334px;
+    left:360px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 1px solid #3a4668;
+}
+
+th, td {
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid #3a4668;
+}
+
+.day {
+    background-color: #b8caf6;
+    color: #000000;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-size: 20px;
+    font-weight: 600;
+}
+td{
+    background-color:#ffffff;
+}
+
+td.selected {
+    background-color: #AEB5CC;
+    color: #ffffff;
+}
+.time{
+    background-color:#b8caf6;
+}
+.button1 {
+    position: absolute;
+    top:1630px;
+    left:1023px;
+    width: 99px;
+    height: 46px;
+    background-color: #4b6b9f;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+    border: none;
+}
+.button2{
+    position: absolute;
+    top:1630px;
+    left: 1155px;
+    width: 126px;
+    height: 46px;
+    background-color: #1f3c6b;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "IBM Plex Sans KR", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+    border: none; 
+}
